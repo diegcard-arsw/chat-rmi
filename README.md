@@ -44,12 +44,7 @@ chat-rmi/
 2. Abre una terminal en el directorio del proyecto
 3. Ejecuta el script de compilación:
 
-### Windows:
-```batch
-compile.bat
-```
-
-### Linux/Mac:
+### Compilación Manual:
 ```bash
 mvn clean compile
 ```
@@ -60,12 +55,6 @@ mvn clean compile
 
 Para iniciar la aplicación de chat:
 
-### Windows:
-```batch
-run-chat.bat
-```
-
-### Linux/Mac:
 ```bash
 mvn exec:java -Dexec.mainClass="org.arsw.chat.ChatApp"
 ```
